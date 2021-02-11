@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>aspnet-CleanArchExample.MVC-759D3CF5-C514-48B6-8923-7B22D53CD30D</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CleanArchExample.Application\CleanArchExample.Application.csproj" />
+    <ProjectReference Include="..\CleanArchExample.IOC\CleanArchExample.IOC.csproj" />
+  </ItemGroup>
+	
+
+</Project>
